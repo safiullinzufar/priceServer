@@ -25,7 +25,7 @@ services:
    POSTGRES_DB: pricedb
   volumes:
    - ./init/:/docker-entrypoint-initdb.d/
-   - ~/etc/postgresql:/etc/postgresql
-   - ~/var/log/postgresql:/var/log/postgresql
-   - ~/var/lib/postgresql:/var/lib/postgresql
-   - ~/var/lib/postgresql/data:/var/lib/postgresql/data/:rw
+#   - ~/etc/postgresql:/etc/postgresql
+#   - ~/var/log/postgresql:/var/log/postgresql
+#   - ~/var/lib/postgresql:/var/lib/postgresql
+#   - ~/var/lib/postgresql/data:/var/lib/postgresql/data/:rw
